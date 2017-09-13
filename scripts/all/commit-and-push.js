@@ -1,9 +1,9 @@
-const exec = require("child_process").exec;
+const execSync = require("child_process").execSync;
 var repos = require("./repos");
 
 let index;
 for (index = 0; index < repos.length; ++index) {
-	exec(
+	execSync(
 		"cd ../ && cd " +
 			repos[index].slug +
 			" && git add . && git commit -m '" +
