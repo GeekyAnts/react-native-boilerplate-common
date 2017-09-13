@@ -1,17 +1,13 @@
 const exec = require("child_process").exec;
+var repos = require("./repos");
 
-exec("cd ../ && git clone https://github.com/GeekyAnts/react-native-boilerplate-basic-flow", (err, stdout, stderr) => {
-	if (err) {
-		console.error(err);
-		return;
-	}
-	console.log(stdout);
-});
-exec("cd ../ && git clone https://github.com/GeekyAnts/react-native-boilerplate-redux-flow", (err, stdout, stderr) => {
-	if (err) {
-		console.error(err);
-		return;
-	}
-	console.log(stdout);
-});
-// process.exit(0);
+let index;
+for (index = 0; index < repos.length; ++index) {
+	exec("cd ../ && git clone " + repos[index].gitUrl, (err, stdout, stderr) => {
+		if (err) {
+			console.error(err);
+			return;
+		}
+		console.log(stdout);
+	});
+}

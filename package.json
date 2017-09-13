@@ -1,10 +1,10 @@
 {
 	"name": "NativeStarterKit",
-	"version": "8.0.0",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"start":
-			"cd ../ && git clone -b Flow-Basic git@github.com:GeekyAnts/react-native-boilerplate-common.git Flow-Basic && basic",
-		"basic": "wml add ./common ../Flow-Basic && wml start"
+		"all:clone": "node ./scripts/all/clone",
+		"all:commit-and-push": "node ./scripts/all/commit-and-push",
+		"watch": "node ./scripts/watch"
 	}
 }
