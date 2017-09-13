@@ -1,5 +1,5 @@
 const execSync = require("child_process").execSync;
-const exec = require("child_process").exec;
+const spawn = require("child_process").spawn;
 var repos = require("./all/repos");
 
 let index;
@@ -31,10 +31,6 @@ for (index = 0; index < repos.length; ++index) {
 	}
 }
 
-exec("wml start", (err, stdout, stderr) => {
-	if (err) {
-		console.error(err);
-		return;
-	}
-	console.log(stdout);
+spawn("wml", ["start"], {
+	stdio: "inherit",
 });
