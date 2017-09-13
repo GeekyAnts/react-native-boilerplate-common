@@ -4,7 +4,8 @@
 	"private": true,
 	"scripts": {
 		"all:clone": "node ./scripts/all/clone",
-		"all:commit-and-push": "node ./scripts/all/commit-and-push",
+		"all:commit": "node ./scripts/all/commit",
+		"all:push": "node ./scripts/all/push",
 		"watch": "node ./scripts/watch"
 	}
 }

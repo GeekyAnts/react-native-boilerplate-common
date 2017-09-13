@@ -4,12 +4,7 @@ var repos = require("./repos");
 let index;
 for (index = 0; index < repos.length; ++index) {
 	execSync(
-		"cd ../ && cd " +
-			repos[index].slug +
-			" && git add . && git commit -m '" +
-			process.argv[2] +
-			"'" +
-			" && git push origin master",
+		"cd ../ && cd " + repos[index].slug + " && git add . && git commit -m '" + process.argv[2] + "'",
 		(err, stdout, stderr) => {
 			if (err) {
 				console.error(err);
