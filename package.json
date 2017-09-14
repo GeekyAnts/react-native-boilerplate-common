@@ -6,6 +6,8 @@
 		"all:clone": "node ./scripts/all/clone",
 		"all:commit": "node ./scripts/all/commit",
 		"all:push": "node ./scripts/all/push",
-		"watch": "node ./scripts/watch"
+		"watch": "node ./scripts/watch",
+		"eject": "node ./scripts/eject",
+		"install": "node ./scripts/all/install"
 	}
 }

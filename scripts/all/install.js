@@ -4,7 +4,7 @@ var repos = require("./repos");
 
 let index;
 for (index = 0; index < repos.length; ++index) {
-	spawnSync("git", ["push", "origin", "master"], {
+	spawnSync("yarn", ["install"], {
 		cwd: path.join(path.dirname(process.cwd()), repos[index].slug),
 		stdio: "inherit",
 	});
