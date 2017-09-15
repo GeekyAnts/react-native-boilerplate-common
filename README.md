@@ -18,7 +18,7 @@ npm run install
 
 npm run watch
 
-npm run all:commit
+npm run all:commit ["commit message"]
 
 npm run all:push
 
