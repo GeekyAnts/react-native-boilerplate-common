@@ -8,6 +8,7 @@
 		"all:push": "node ./scripts/all/push",
 		"watch": "node ./scripts/watch",
 		"eject": "node ./scripts/eject",
-		"install": "node ./scripts/all/install"
+		"install": "node ./scripts/all/install",
+		"jest": "node ./scripts/jest"
 	}
 }
