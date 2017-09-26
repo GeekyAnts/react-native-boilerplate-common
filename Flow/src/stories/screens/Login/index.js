@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Image } from "react-native";
+import { Image, Platform } from "react-native";
 import { Container, Content, Header, Body, Title, Button, Text, View, Icon, Footer } from "native-base";
 //import styles from "./styles";
 export interface Props {
@@ -12,11 +12,13 @@ class Login extends React.Component<Props, State> {
 		return (
 			<Container>
 				<Header style={{ height: 200 }}>
-					<Body>
-						<Icon name="flash" style={{ fontSize: 104 }} />
+					<Body style={{ alignItems: "center" }}>
+						<Icon name="flash" style={{ fontSize: 104, color: Platform.OS === "ios" ? "#000" : "#FFF" }} />
 						<Title>ReactNativeSeed.com</Title>
 						<View padder>
-							<Text>Build Something Amazing</Text>
+							<Text style={{ color: Platform.OS === "ios" ? "#000" : "#FFF" }}>
+								Build Something Amazing
+							</Text>
 						</View>
 					</Body>
 				</Header>
