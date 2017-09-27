@@ -13,12 +13,10 @@ class Login extends React.Component<Props, State> {
 			<Container>
 				<Header style={{ height: 200 }}>
 					<Body style={{ alignItems: "center" }}>
-						<Icon name="flash" style={{ fontSize: 104, color: Platform.OS === "ios" ? "#000" : "#FFF" }} />
+						<Icon name="flash" style={{ fontSize: 104 }} />
 						<Title>ReactNativeSeed.com</Title>
 						<View padder>
-							<Text style={{ color: Platform.OS === "ios" ? "#000" : "#FFF" }}>
-								Build Something Amazing
-							</Text>
+							<Text>Build Something Amazing</Text>
 						</View>
 					</Body>
 				</Header>
@@ -30,10 +28,10 @@ class Login extends React.Component<Props, State> {
 						</Button>
 					</View>
 				</Content>
-				<Footer>
+				<Footer style={{ backgroundColor: "#F8F8F8" }}>
 					<View style={{ alignItems: "center", opacity: 0.5, flexDirection: "row" }}>
 						<View padder>
-							<Text>Made with love at </Text>
+							<Text style={{ color: "#000" }}>Made with love at </Text>
 						</View>
 						<Image
 							source={{ uri: "https://geekyants.com/images/logo-dark.png" }}
