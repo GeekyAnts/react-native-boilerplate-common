@@ -16,7 +16,7 @@ class Login extends React.Component<Props, State> {
 						<Icon name="flash" style={{ fontSize: 104 }} />
 						<Title>ReactNativeSeed.com</Title>
 						<View padder>
-							<Text style={{ color: Platform.OS === "ios" ? "#000" : "#FFF" }}>
+							<Text style={{ color: Platform.OS === "ios" ? "#000" : "#FFF" }} />
 						</View>
 					</Body>
 				</Header>
