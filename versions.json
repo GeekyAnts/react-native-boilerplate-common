@@ -1,10 +1,178 @@
 [
   {
-    "old": "\"expo\": \"23.0.0\"",
-    "new": "\"expo\": \"24.0.0\""
+    "old": "\"version\": \"1.1.0\"",
+    "new": "\"version\": \"1.1.0\""
   },
   {
-    "old": "\"version\": \"1.1.0\"",
-    "new": "\"version\": \"1.2.0\""
+    "old": "\"babel-eslint\": \"8.0.2\"",
+    "new": "\"babel-eslint\": \"8.0.2\""
+  },
+  {
+    "old": "\"babel-jest\": \"^20.0.3\"",
+    "new": "\"babel-jest\": \"^20.0.3\""
+  },
+  {
+    "old": "\"babel-preset-react-native\": \"^3.0.1\"",
+    "new": "\"babel-preset-react-native\": \"^3.0.1\""
+  },
+  {
+    "old": "\"concurrently\": \"^3.5.0\"",
+    "new": "\"concurrently\": \"^3.5.0\""
+  },
+  {
+    "old": "\"rimraf\": \"^2.6.2\"",
+    "new": "\"rimraf\": \"^2.6.2\""
+  },
+  {
+    "old": "\"tslint\": \"^5.8.0\"",
+    "new": "\"tslint\": \"^5.8.0\""
+  },
+  {
+    "old": "\"typescript\": \"^2.6.1\"",
+    "new": "\"typescript\": \"^2.6.1\""
+  },
+  {
+    "old": "\"@types/jest\": \"^20.0.8\"",
+    "new": "\"@types/jest\": \"^20.0.8\""
+  },
+  {
+    "old": "\"@types/react\": \"^16.0.5\"",
+    "new": "\"@types/react\": \"^16.0.5\""
+  },
+  {
+    "old": "\"@types/react-native\": \"^0.47.7\"",
+    "new": "\"@types/react-native\": \"^0.47.7\""
+  },
+  {
+    "old": "\"@types/react-native-vector-icons\": \"^4.3.1\"",
+    "new": "\"@types/react-native-vector-icons\": \"^4.3.1\""
+  },
+  {
+    "old": "\"@types/react-navigation\": \"^1.0.19\"",
+    "new": "\"@types/react-navigation\": \"^1.0.19\""
+  },
+  {
+    "old": "\"eslint\": \"4.11.0\"",
+    "new": "\"eslint\": \"4.11.0\""
+  },
+  {
+    "old": "\"babel-plugin-transform-decorators-legacy\": \"^1.3.4\"",
+    "new": "\"babel-plugin-transform-decorators-legacy\": \"^1.3.4\""
+  },
+  {
+    "old": "\"eslint-plugin-flowtype\": \"^2.35.1\"",
+    "new": "\"eslint-plugin-flowtype\": \"^2.35.1\""
+  },
+  {
+    "old": "\"eslint-plugin-import\": \"^2.7.0\"",
+    "new": "\"eslint-plugin-import\": \"^2.7.0\""
+  },
+  {
+    "old": "\"eslint-plugin-jsx-a11y\": \"^6.0.2\"",
+    "new": "\"eslint-plugin-jsx-a11y\": \"^6.0.2\""
+  },
+  {
+    "old": "\"eslint-plugin-prettier\": \"^2.2.0\"",
+    "new": "\"eslint-plugin-prettier\": \"^2.2.0\""
+  },
+  {
+    "old": "\"eslint-plugin-react\": \"^7.3.0\"",
+    "new": "\"eslint-plugin-react\": \"^7.3.0\""
+  },
+  {
+    "old": "\"eslint-plugin-react-native\": \"^3.1.0\"",
+    "new": "\"eslint-plugin-react-native\": \"^3.1.0\""
+  },
+  {
+    "old": "\"flow-bin\": \"0.59.0\"",
+    "new": "\"flow-bin\": \"0.59.0\""
+  },
+  {
+    "old": "\"flow-typed\": \"2.2.3\"",
+    "new": "\"flow-typed\": \"2.2.3\""
+  },
+  {
+    "old": "\"husky\": \"0.14.3\"",
+    "new": "\"husky\": \"0.14.3\""
+  },
+  {
+    "old": "\"ts-jest\": \"21.2.3\"",
+    "new": "\"ts-jest\": \"21.2.3\""
+  },
+  {
+    "old": "\"jest-expo\": \"23.0.0\"",
+    "new": "\"jest-expo\": \"23.0.0\""
+  },
+  {
+    "old": "\"react-native-scripts\": \"^1.7.0\"",
+    "new": "\"react-native-scripts\": \"^1.7.0\""
+  },
+  {
+    "old": "\"react-test-renderer\": \"16.0.0\"",
+    "new": "\"react-test-renderer\": \"16.0.0\""
+  },
+  {
+    "old": "\"expo\": \"23.0.0\"",
+    "new": "\"expo\": \"23.0.0\""
+  },
+  {
+    "old": "\"lodash\": \"4.17.4\"",
+    "new": "\"lodash\": \"4.17.4\""
+  },
+  {
+    "old": "\"mobx\": \"^3.3.1\"",
+    "new": "\"mobx\": \"^3.3.1\""
+  },
+  {
+    "old": "\"mobx-state-tree\": \"^1.1.0\"",
+    "new": "\"mobx-state-tree\": \"^1.1.0\""
+  },
+  {
+    "old": "\"mobx-react\": \"^4.3.4\"",
+    "new": "\"mobx-react\": \"^4.3.4\""
+  },
+  {
+    "old": "\"native-base\": \"2.3.3\"",
+    "new": "\"native-base\": \"2.3.3\""
+  },
+  {
+    "old": "\"react\": \"16.0.0\"",
+    "new": "\"react\": \"16.0.0\""
+  },
+  {
+    "old": "\"react-native\": \"0.50.0\"",
+    "new": "\"react-native\": \"0.50.0\""
+  },
+  {
+    "old": "\"react-navigation\": \"1.0.0-beta.19\"",
+    "new": "\"react-navigation\": \"1.0.0-beta.19\""
+  },
+  {
+    "old": "\"react-redux\": \"5.0.6\"",
+    "new": "\"react-redux\": \"5.0.6\""
+  },
+  {
+    "old": "\"redux\": \"3.7.2\"",
+    "new": "\"redux\": \"3.7.2\""
+  },
+  {
+    "old": "\"redux-form\": \"7.1.2\"",
+    "new": "\"redux-form\": \"7.1.2\""
+  },
+  {
+    "old": "\"redux-persist\": \"5.4.0\"",
+    "new": "\"redux-persist\": \"5.4.0\""
+  },
+  {
+    "old": "\"redux-thunk\": \"2.2.0\"",
+    "new": "\"redux-thunk\": \"2.2.0\""
+  },
+  {
+    "old": "\"remote-redux-devtools\": \"0.5.0\"",
+    "new": "\"remote-redux-devtools\": \"0.5.0\""
+  },
+  {
+    "old": "\"remote-redux-devtools-on-debugger\": \"^0.8.0\"",
+    "new": "\"remote-redux-devtools-on-debugger\": \"^0.8.0\""
   }
 ]
