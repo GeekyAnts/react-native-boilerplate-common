@@ -1,14 +1,15 @@
 {
-	"name": "NativeStarterKit",
-	"version": "1.0.0",
-	"private": true,
-	"scripts": {
-		"all:clone": "node ./scripts/all/clone",
-		"all:commit": "node ./scripts/all/commit",
-		"all:push": "node ./scripts/all/push",
-		"watch": "node ./scripts/watch",
-		"eject": "node ./scripts/eject",
-		"install": "node ./scripts/all/install",
-		"jest": "node ./scripts/jest"
-	}
+  "name": "NativeStarterKit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "all:clone": "node ./scripts/all/clone",
+    "all:commit": "node ./scripts/all/commit",
+    "all:push": "node ./scripts/all/push",
+    "watch": "node ./scripts/watch",
+    "eject": "node ./scripts/eject",
+    "install": "node ./scripts/all/install",
+    "jest": "node ./scripts/jest",
+    "version": "node ./scripts/version"
+  }
 }
