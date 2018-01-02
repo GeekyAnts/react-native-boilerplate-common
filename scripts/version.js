@@ -38,3 +38,20 @@ for (index = 0; index < repos.length; ++index) {
     }
   }.call(this, index));
 }
+
+let i;
+for (i = 0; i < repos.length; ++i) {
+  (function(i) {
+    try {
+      process.chdir(`../${repos[i].slug}`);
+      var datas = fs.readFileSync(process.cwd() + `/app.json`, "utf8");
+      var result = datas;
+      versions.forEach(function(version) {
+        result = result.replace(version.old, version.new);
+      });
+      fs.writeFileSync(process.cwd() + `/app.json`, result, "utf8");
+    } catch (err) {
+      console.error(`chdir: ${err}`);
+    }
+  }.call(this, i));
+}
