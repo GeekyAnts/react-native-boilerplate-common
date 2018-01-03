@@ -11,5 +11,9 @@ make required changes in `scr/boot/setup.js` (remove any references of expo)
 
 change content of .babelrc file accordingly (same for all)
 
+Add pluggins in .eslintrc for `typescript` variations.
+
+Add pluggins in package.json for `typescript variations. (eslint pluggins)
+
 make the required changes to scripts in package.json for typescript varitions
 ```
