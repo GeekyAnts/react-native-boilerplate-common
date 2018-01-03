@@ -9,6 +9,8 @@
     "watch": "node ./scripts/watch",
     "eject": "node ./scripts/eject",
     "install": "node ./scripts/all/install",
+    "remove": "node ./scripts/all/remove",
+    "upgrade": "node ./scripts/all/upgrade",
     "jest": "node ./scripts/jest",
     "version": "node ./scripts/version"
   }
