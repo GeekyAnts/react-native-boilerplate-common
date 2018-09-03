@@ -18,6 +18,22 @@ npm run install
 
 npm run watch
 
+Change to latest versions in version.json
+
+npm run version
+//To change the versions to latest in all repos
+
+npm run remove
+//To remove old node_modules from all repos
+
+npm run install
+//Intall node_modules
+
+npm run upgrade
+//Upgrades ios and android folders for RN versions and link dependencies
+
+Test all the variations
+
 npm run all:commit ["commit message"]
 
 npm run all:push
