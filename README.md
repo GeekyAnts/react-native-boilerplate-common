@@ -29,6 +29,10 @@ npm run remove
 npm run install
 //Intall node_modules
 
+Test all expo variations and push
+
+
+//Now for RN variations
 npm run upgrade
 //Upgrades ios and android folders for RN versions and link dependencies
 
